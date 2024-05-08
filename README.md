@@ -9,7 +9,7 @@ Bu depo, temel CRUD (Create, Read, Update, Delete) işlemlerini gerçekleştirme
 
 # Kullanılan Teknolojiler
 - HTML
-- css
+- CSS
 - JavaScript
 
 # GIF
