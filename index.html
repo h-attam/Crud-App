@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crud App</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font awesome  icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="section-center">
+      <form class="grocery-form">
+        <p class="alert"></p>
+        <h3>Alışveriş Listesi</h3>
+        <div class="form-control">
+          <input
+            type="text"
+            id="grocery"
+            placeholder="Eklemek istediğiniz ürünü giriniz..."
+          />
+          <button type="submit" class="submit-btn">Ekle</button>
+        </div>
+      </form>
+
+      <!-- liste alanı -->
+      <div class="grocery-container">
+        <div class="grocery-list">
+          <!--<article class="grocery-item">
+            <p class="title">item</p>
+            <div class="btn-container">
+              <button type="button" class="edit-btn">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </button>
+              <button type="button" class="delete-btn">
+                <i class="fa-solid fa-trash"></i>
+              </button>
+            </div>
+          </article>
+          <article class="grocery-item">
+            <p class="title">item</p>
+            <div class="btn-container">
+              <button type="button" class="edit-btn">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </button>
+              <button type="button" class="delete-btn">
+                <i class="fa-solid fa-trash"></i>
+              </button>
+            </div>
+          </article>
+          <article class="grocery-item">
+            <p class="title">item</p>
+            <div class="btn-container">
+              <button type="button" class="edit-btn">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </button>
+              <button type="button" class="delete-btn">
+                <i class="fa-solid fa-trash"></i>
+              </button>
+            </div>
+          </article> -->
+        </div>
+        <button class="clear-btn">Listeyi Temizle</button>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
